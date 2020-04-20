@@ -17,3 +17,7 @@ Important note.- With respect to the NFC function of this App, as of 10/09/2019,
 
 To test the NFC reader, select and read a tag configured configured for NDEF
 
+#### references
+https://www.npmjs.com/package/tesseract.js
+https://blog.logrocket.com/how-to-extract-text-from-an-image-using-javascript-8fe282fb0e71/
+

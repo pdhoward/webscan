@@ -1,5 +1,5 @@
 {
-  "name": "zbar.wasm-demo",
+  "name": "webscan",
   "version": "0.0.0",
   "description": "A wasm build for C/C++ Zbar bar code scan library.",
   "scripts": {

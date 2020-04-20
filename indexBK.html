@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="description" content="Progressive Web Application useful for scanning QR codes and as an NFC code reader, both from a smartphone.">
+  <link rel="shortcut icon" href="assets/images/logo.jpeg" type="image/x-icon">
+  <link rel="manifest" href="manifest.json"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/puritym/css/style.css">
+  <link rel="stylesheet" href="assets/dropdown-menu/style.light.css"> 
+  <title>MACHINE READER</title>
+</head>
+<body>
+  <section id="dropdown-menu-2btn-0">
+    <nav class="navbar navbar-dropdown navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html" class="navbar-logo"><img src="assets/images/logo.jpeg" alt="Full Stack Developer - Francisco Sarcía Sosa" title="Full Stack Developer - Francisco Sarcía Sosa"></a>
+                <a class="text-black" href="index.html">PWA QR NFC</a>
+            </div>
+            <div class="">
+                <a class="btn btn-sm pull-xs-right btn-primary display-7" href="https://github.com/pdhoward/webscan" target="_blank">
+                    On GitHub
+                </a>
+            </div>
+            <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                <div class="hamburger-icon"></div>
+            </button>
+        </div>
+    </nav>
+  </section>
+
+  <section class="mbr-section mbr-section-full mbr-after-navbar" id="header"  style="background-color: rgb(255, 248, 224);">
+    <div class="mbr-table-cell">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-xs-center">
+
+                    <h1 class="mbr-section-title display-1">PWA - SCANNER</h1>
+                    
+                    <div class="">
+                        <a class="btn btn-lg btn-black-outline btn-black" href="sqr/index.html">QR</a> 
+                        <a class="btn btn-lg btn-primary" href="nfc/index.html">NFC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="mbr-section mbr-section-nopadding mbr-footer" id="footer"  style="background-color:cyan; padding-top: 3rem; padding-bottom: 1.98rem;">
+    <div class="container">
+            <p><a href="https://github.com/pdhoward/webscan" target="_blank">Shared code on GitHub.</a></p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="sw.js"></script>
+  
+</body>
+</html>

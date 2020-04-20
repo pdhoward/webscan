@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="description" content="App o Aplicación Web Progresiva ( PWA ) para escanear códigos QR desde el smartphone, Actua como SCANNER QR, previamente se ejecuta un test para verificar la viablidad de ejecución en el smartphone.">
+  
+  <title>Scan QR</title>
+  <link rel="shortcut icon" href="../assets/images/logo.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/puritym/css/style.css">
+  <link rel="stylesheet" href="../assets/dropdown-menu/style.light.css">
+  
+</head>
+<body>
+<section id="dropdown-menu-2btn-0">
+    <nav class="navbar navbar-dropdown navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="../index.html" class="navbar-logo"><img src="../assets/images/logo.jpeg" alt="Full Stack Developer - Francisco Sarcía Sosa" title="Full Stack Developer - Francisco Sarcía Sosa"></a>
+                <a class="text-black" href="../index.html">SCAN QR</a>
+            </div>
+            <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                <div class="hamburger-icon"></div>
+            </button>
+        </div>
+    </nav>
+</section>
+
+<section style="margin: 0;  padding: 0; width: 100%; height: 100%" >
+    <div class="container">
+        <div class="row">
+
+                <video style="display:block; position: absolute;"></video>
+                <canvas style="display:block; position: absolute; top: 0"></canvas>	
+
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript" src="build.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "pwa-qr-nfc",
+  "version": "1.0.0",
+  "description": "PWA Scanner QR and Reader NFC",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevFranGS/pwa-qr-nfc.git"
+  },
+  "keywords": [
+    "PWA",
+    "Scanner",
+    "QR",
+    "Reader",
+    "NFC",
+    "wasm",
+    "webpack",
+    "HTML5",
+    "CCS3",
+    "JavaScript"
+  ],
+  "author": "Francisco Garcia Sosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevFranGS/pwa-qr-nfc/issues"
+  },
+  "homepage": "https://github.com/DevFranGS/pwa-qr-nfc#readme"
+}

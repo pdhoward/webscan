@@ -21,3 +21,5 @@ To test the NFC reader, select and read a tag configured configured for NDEF
 https://www.npmjs.com/package/tesseract.js
 https://blog.logrocket.com/how-to-extract-text-from-an-image-using-javascript-8fe282fb0e71/
 
+https://docs.deistercloud.com/content/Axional%20development%20libraries.20/Axional%20JS%20Script/AX%20Library.10/barcode/barcode.xml
+

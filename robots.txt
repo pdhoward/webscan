@@ -1,0 +1,3 @@
+Sitemap: https://machinescan.netlify.app/sitemap.xml
+User-agent: *
+Disallow:

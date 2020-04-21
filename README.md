@@ -30,3 +30,8 @@ https://blog.logrocket.com/how-to-extract-text-from-an-image-using-javascript-8f
 
 https://docs.deistercloud.com/content/Axional%20development%20libraries.20/Axional%20JS%20Script/AX%20Library.10/barcode/barcode.xml
 
+https://github.com/code-kotis/qr-code-scanner
+
+https://gruhn.github.io/vue-qrcode-reader/demos/Simple.html
+
+

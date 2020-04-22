@@ -34,4 +34,7 @@ https://github.com/code-kotis/qr-code-scanner
 
 https://gruhn.github.io/vue-qrcode-reader/demos/Simple.html
 
+https://www.ibm.com/cloud/blog/use-cloud-functions-to-automatically-analyze-images-in-cloud-object-storage
+
+
 
